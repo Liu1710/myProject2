@@ -1,0 +1,7 @@
+/************页头：顶部导航栏****************/
+.my-menu{
+    text-align:center;
+}
+.my-menu li{
+    line-height:30px;
+}

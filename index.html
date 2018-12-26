@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/body.css">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+</head>
+<body>
+    <!------顶部导航条------>
+  <div class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <!------第一部分：导航左侧联系方式+汉堡包------>
+      <div class="navbar-header">
+          <a href="#" class="navbar-brand my-logo"></a>
+          <a href="#menu" data-toggle="collapse" class="navbar-toggle">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </a>
+      </div>
+      <!------第二部分：折叠菜单------>
+      <div id="menu" class="collapes navbar-collapse my-navber">
+          <!------菜单------>
+          <ul class="nav navbar-nav">
+              <li><a href="#">首页</a></li>
+              <li><a href="#">产品</a></li>
+              <li class="dropdown">
+                  <a href="#" data-toggle="dropdown">菜单</a>
+                  <ul class="dropdown-menu my-menu">
+                      <li><a href="#">新闻中心</a></li>
+                      <li><a href="#">下载中心</a></li>
+                      <li><a href="#">游戏资料</a></li>
+                      <li><a href="#">活动中心</a></li>
+                      <li><a href="#">玩家互动</a></li>
+                      <li><a href="#">自助服务</a></li>
+                      <li><a href="#">客服中心</a></li>
+                  </ul>
+              </li>
+          </ul>
+          <!------右侧导航栏------>
+          <ul class="nav navbar-right navbar-nav">
+              <li><a href="#">简体中文</a></li>
+              <li><a href="#">登录</a></li>
+			  <li><a href="#">注册</a></li>
+          </ul>
+          <!------右侧列表------>
+          <form class="navbar-form navbar-right">
+              <div class="form-group has-feedback">
+                  <label for="name" class="sr-only">搜索关键字</label>
+                  <input type="text" id="name" class="form-control">
+                  <span class="glyphicon glyphicon-search form-control-feedback"></span>
+              </div>
+          </form>
+          <!------右侧文本------>
+          <span class="navbar-text navbar-right">|</span>
+          <!------右侧超链接：查找内容------>
+          <span class="navbar-link navbar-text navbar-right">查找内容</span>
+      </div>
+  </div>
+</div>
+    <!------主体部分------>
+  <div class="container-fluid">
+    <!------主题部分------>
+      <div class="row subject" >
+          <div class="hidden-xs col-sm-4">
+              <ul class="list-unstyled list-inline">
+                  <li><a href="#">主页</a></li>
+                  <li><a href="#">关于</a></li>
+                  <li><a href="#">服务</a></li>
+              </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+              <h1>幻想世界</h1>
+          </div>
+          <div class="hidden-xs col-sm-4">
+              <ul class="list-unstyled list-inline">
+                  <li><a href="#">画廊</a></li>
+                  <li><a href="#">新闻</a></li>
+                  <li><a href="#">联系</a></li>
+              </ul>
+          </div>
+      </div>
+        <!------轮播图------>
+      <div class="row banner">
+         <div class="col-xs-12">
+             <img class="img-responsive center-block" src="image/banner1.jpg" alt="">
+         </div>
+      </div>
+        <!------游戏内容简介------>
+      <div class="row introduction">
+         <div class="col-xs-12 col-md-4 col-md-offset-2">
+             <div class="row intro_left">
+                 <div class="col-xs-12"><h1>关于我们</h1></div>
+                 <div class="col-xs-12"><p>我们是谁</p></div>
+                 <div class="col-xs-12"><h4>现在这不是一场游戏</h4></div>
+                 <div class="col-xs-12"><p>
+                     大千世界，种族芸芸，纷繁复杂，其中以神族统辖
+
+                     万物，人、异人、妖仙、幽灵、海族瓜分天下形成五个区域，历年来争执不断。
+                 </p></div>
+                  <div class="col-xs-12"><h5>
+                     人族与异人族之间最大的矛盾来自于中原的领土之争。数百年来，异人族作为妖与人的混血儿，无论是在外表还是在生活特征上，一直为人族所不齿，人族将异人族划分为低等种族，认为异人的出现违背了神的意愿，人族将异人流放到海外异岛上自生自灭，由于这种天生的岐视，异人族对人族有着无比深刻的复仇心理
+                 </h5></div>
+             </div>
+         </div>
+         <div class="col-xs-12 col-md-4 intro_right">
+             <img class="img-responsive center-block intro_image" src="image/ab.jpg" alt="">
+         </div>
+         </div>
+        <!------游戏服务部分------>
+      <div class="row service">
+         <div class="col-xs-12 service_top">
+             <h1>服务</h1>
+             <h5>查看我们的服务</h5>
+         </div>
+         <div class="col-xs-6 col-md-3 service_bottom">
+             <div class="row">
+                 <div class="col-xs-12 service_border">
+                     <img src="image/s1.png" alt="">
+                     <div class="shadow"></div>
+                 </div>
+                 <div class="col-xs-12">
+                     <h2>服务1</h2>
+                     <p>客户服务1号入口</p>
+                 </div>
+             </div>
+         </div>
+         <div class="col-xs-6 col-md-3 service_bottom">
+             <div class="row">
+                 <div class="col-xs-12 service_border">
+                     <img src="image/s2.png" alt="">
+                     <div class="shadow"></div>
+                 </div>
+                 <div class="col-xs-12">
+                     <h2>服务2</h2>
+                     <p>客户服务1号入口</p>
+                 </div>
+             </div>
+         </div>
+         <div class="col-xs-6 col-md-3 service_bottom">
+             <div class="row">
+                 <div class="col-xs-12 service_border">
+                     <img src="image/s3.png" alt="">
+                     <div class="shadow"></div>
+                 </div>
+                 <div class="col-xs-12">
+                     <h2>服务3</h2>
+                     <p>客户服务1号入口</p>
+                 </div>
+             </div>
+         </div>
+         <div class="col-xs-6 col-md-3 service_bottom">
+             <div class="row">
+                 <div class="col-xs-12 service_border">
+                     <img src="image/s4.png" alt="">
+                     <div class="shadow"></div>
+                 </div>
+                 <div class="col-xs-12">
+                     <h2>服务4</h2>
+                     <p>客户服务1号入口</p>
+                 </div>
+             </div>
+         </div>
+      </div>
+        <!------最新画廊------>
+          <!------画廊主题部分------>
+      <div class="row text">
+          <div class="col-xs-12">
+              <div class="row">
+                  <div class="col-xs-12"><h3>最新画廊</h3></div>
+                  <div class="col-xs-12"><p>炫酷瞬间尽在于此</p></div>
+              </div>
+          </div>
+      </div>
+          <!------画廊作品部分------>
+      <div class="row ">
+          <div class="col-md-8 col-md-offset-2 gallery">
+              <div class="row ">
+                  <!------第1张图片------>
+                  <div class="col-xs-6 col-md-4">
+                      <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/ab.jpg" alt="">
+                      </div>
+                  </div>
+                  <!------第2张图片------>
+                  <div class="col-xs-6 col-md-4">
+                      <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/g1.jpg" alt="">
+                      </div>
+                  </div>
+                  <!------第3张图片------>
+                  <div class="col-xs-6 col-md-4">
+                      <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/g2.jpg" alt="">
+                      </div>
+                  </div>
+                  <!------第4张图片------>
+                  <div class="col-xs-6 col-md-4">
+                      <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/g3.jpg" alt="">
+                      </div>
+                  </div>
+                  <!------第5张图片------>
+                  <div class="col-xs-6 col-md-4">
+                      <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/g4.jpg" alt="">
+                      </div>
+                  </div>
+                  <!------第6张图片------>
+                  <div class="col-xs-6 col-md-4">
+                     <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/g5.jpg" alt="">
+                      </div>
+                  </div>
+                  <!------第7张图片------>
+                  <div class="col-xs-6 col-md-4">
+                      <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/g6.jpg" alt="">
+                      </div>
+                  </div>
+                  <!------第8张图片------>
+                  <div class="col-xs-6 col-md-4">
+                      <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/g7.jpg" alt="">
+                      </div>
+                  </div>
+                  <!------第9张图片------>
+                  <div class="col-xs-6 col-md-4">
+                      <div class="gallery2">
+                          <img class="img-responsive center-block" src="image/g8.jpg" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <!------最新消息(轮播图)------>
+      <div class="row text">
+           <div class="col-xs-12">
+               <h3>最新消息</h3>
+               <p>让我们一起遨游吧!</p>
+           </div>
+       </div>
+      <div class="row news">
+           <div class="col-xs-12 col-sm-6 col-md-3 new1">
+               <img class="img-responsive center-block" src="image/s1.jpg" alt="">
+           </div>
+           <div class="hidden-xs col-sm-6 col-md-3 new2">
+               <img class="img-responsive center-block" src="image/s2.jpg" alt="">
+           </div>
+           <div class="hidden-xs hidden-sm col-md-3 new3">
+               <img class="img-responsive center-block" src="image/s3.jpg" alt="">
+           </div>
+           <div class="hidden-xs hidden-sm col-md-3 new4">
+               <img class="img-responsive center-block" src="image/s4.jpg" alt="">
+           </div>
+       </div>
+        <!------联系我们------>
+      <div class="row theme">
+            <div class="col">
+               <h1>联系我们</h1>
+               <p>给我们发信息</p>
+            </div>
+        </div>
+      <div class="row contact ">
+            <div class="col-xs-12 col-sm-4 col-md-offset-2">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" placeholder="你的名字">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="email" placeholder="你的邮件">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="number" placeholder="你的电话号码">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <textarea name="Message" placeholder="Your Message" required ></textarea>
+            </div>
+        </div>
+      <div class="row">
+             <div class="col-xs-12 col-sm-4 col-sm-offset-6">
+                 <input type="submit" class="btn btn-block">
+             </div>
+         </div>
+        <!------页尾------>
+      <div class="row footer">
+        <div class="col-md-8 col-md-offset-2 footer_container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col1">
+                    <div class="icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                    <div class="site">
+                        <h4>地点</h4>
+                        <p>3030北京，北京，中国</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col2">
+                    <div class="icon"><span class="glyphicon glyphicon-envelope"></span></div>
+                    <div class="site">
+                        <h4>电子邮件</h4>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col3">
+                    <div class="icon"><span class="glyphicon glyphicon-earphone"></span></div>
+                    <div class="site">
+                        <h4>电话号码</h4>
+                        <p>(+000) 003 003 0052</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 footer_end">
+            <p>Copyright © 2017.Company name All rights reserved.More Templates <i>游戏之家</i> - Collect from <i>游戏世界</i>
+        </div>
+      </div>
+  </div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

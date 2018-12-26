@@ -1,0 +1,19 @@
+    body, div, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4 {
+        margin:0;
+        padding:0;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    ol, ul ,li{
+        list-style: none;
+    }
+    body{
+        color:#000000;background:#FFF; text-align:center;
+    }
+    a{
+        color:#000000;text-decoration:none;
+    }
+    a:hover{
+        color:#BA2636;text-decoration:underline;
+    }
